@@ -26,6 +26,7 @@ body, html {
     height: 100%;
     text-align:center;
     position: relative;
+    margin:auto;
     border-collapse: collapse;
    
 }
