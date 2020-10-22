@@ -2,59 +2,101 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@1,400&display=swap" rel="stylesheet">
-  <style> 
-        h1 { 
-            font-family: Poppins; 
-            font-stlye:italic;
-            weight:800;
-            color: #1b3954; 
-        } 
-        h2 {
-            font-family:Lato;
-            weight:400;
-            color: #1b3954;
-        }
-       h3 {
-            font-family:lato;
-            weight:300;
-            color:#1b3954;
-        }
-    </style> 
-</head>
-  <!-- Begin Constant Contact Active Forms -->
-<script> var _ctct_m = "92f5aaa6ada8a35d7347592cd60c48be"; </script>
-<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
-<!-- End Constant Contact Active Forms -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
   <title>MoversPay by daycos</title>
+  <meta name="description" content="TMoversPay by daycos">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">  -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="mini-default.min.css">
+  <style> 
+    body{
+      font-family: 'Lato', sans-serif;
+      text-align: center;
+      color: #1b3954;
+      background-color: #fff;
+    }    
+    img{
+      width:100%;
+    }
+
+    h1{
+      margin: 4rem auto 1rem;
+    }
+
+    h1 img{
+      max-width: 633px;
+    }
+
+    #by{
+      margin-bottom: 1.25rem
+    }
+
+    #daycos{
+      max-width: 211px;
+    }
+
+    h2{
+      margin: 2.5rem auto 1rem;
+      text-align: center;
+      white-space: nowrap;
+      line-height: 1.3;
+      font-weight:300;
+    }
+
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    h2{
+      font-size: 1.5rem !important;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    h2{
+      font-size: 2rem !important;
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    h2{
+      font-size: 2.1rem !important;
+    }  
+  }
+  </style> 
   
-  
-  
+    <!-- Begin Constant Contact Active Forms -->
+  <script> var _ctct_m = "92f5aaa6ada8a35d7347592cd60c48be"; </script>
+  <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+  <!-- End Constant Contact Active Forms -->
 </head>
 
 <body>
-  <main>
-    <div class = "container">
-      <div class = "middlepane">
-            <img src="https://daycos.com/wp-content/uploads/2020/10/moverspay.png">
-            <br>by
-            <br><a href="https://www.daycos.com"><img src="https://daycos.com/wp-content/uploads/2020/10/Daycos_Logo_WEB.png" alt="daycos.com" width="211" height="58"></a>
-            <h2 Style="font-size:200%; color:#1b3954; font-family:Lato;">  
-            <br>Complete 400NG rating capability.
-            <br>Backed by the expertise of Daycos.
-            <br>Offered at no cost.
-                       </h2>  
-              <!-- Begin Constant Contact Inline Form Code -->
-            <div class="ctct-inline-form" data-form-id="00d17d3a-7c74-4433-b9a3-ab4e14e6a731"></div>
-            <!-- End Constant Contact Inline Form Code --> 
-     </div>
-   </div>
-  </main>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm col-md-8 col-lg-6 col-sm-offset-1 col-md-offset-2 col-lg-offset-3">
+        <h1><img src="moverspay.png" alt="moverpay.com"></h1>
+        <div id="by">by</div>
+        <div>
+          <a href="https://www.daycos.com">
+            <img id="daycos" src="https://daycos.com/wp-content/uploads/2020/10/Daycos_Logo_WEB.png" alt="daycos.com">
+          </a>
+        </div>
+        <h2>  
+          Complete 400NG rating capability.
+          <br>
+          Backed by the expertise of Daycos.
+          <br>
+          Offered at no cost.
+        </h2>
+        <!-- Begin Constant Contact Inline Form Code -->
+        <div class="ctct-inline-form" data-form-id="00d17d3a-7c74-4433-b9a3-ab4e14e6a731"></div>
+        <!-- End Constant Contact Inline Form Code -->
+      </div>
+    </div>
+  </div>
 </body>
-
 </html>
