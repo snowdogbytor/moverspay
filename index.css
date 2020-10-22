@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: "lato";
+}
+
+.header {
+   text-align: center;
+   font-family:Poppins;
+   font-style:italic,bold;
+   font-weight:800
+}
+
