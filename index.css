@@ -1,15 +1,11 @@
 body {
     text-align: center;
     margin: 0px;
-    font-family: "Lato";
-    color: #1b3954;
+    
 }
 
 .header {
    text-align: center;
-   font-family:Poppins;
-   font-style:italic,bold;
-   font-weight:800;
-   color: #1b3954;
+   margin: 0px;
 }
 
