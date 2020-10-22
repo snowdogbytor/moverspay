@@ -28,7 +28,7 @@ body, html {
     align-items: center;
     justify-content: center;
     border-collapse: collapse;
-    float: none;
+    float: center;
 }
 
 .rightpane {
